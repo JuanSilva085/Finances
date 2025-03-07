@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JuanU\\source\\repos\\GestorFinanceiro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECEA0850-D352-4B53-872C-4583AFA0ABB2}|GestorFinanceiro\\GestorFinanceiro.csproj|c:\\users\\juanu\\source\\repos\\gestorfinanceiro\\gestorfinanceiro\\repositorios\\repositoriotransacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECEA0850-D352-4B53-872C-4583AFA0ABB2}|GestorFinanceiro\\GestorFinanceiro.csproj|solutionrelative:gestorfinanceiro\\repositorios\\repositoriotransacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECEA0850-D352-4B53-872C-4583AFA0ABB2}|GestorFinanceiro\\GestorFinanceiro.csproj|c:\\users\\juanu\\source\\repos\\gestorfinanceiro\\gestorfinanceiro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECEA0850-D352-4B53-872C-4583AFA0ABB2}|GestorFinanceiro\\GestorFinanceiro.csproj|solutionrelative:gestorfinanceiro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECEA0850-D352-4B53-872C-4583AFA0ABB2}|GestorFinanceiro\\GestorFinanceiro.csproj|c:\\users\\juanu\\source\\repos\\gestorfinanceiro\\gestorfinanceiro\\models\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECEA0850-D352-4B53-872C-4583AFA0ABB2}|GestorFinanceiro\\GestorFinanceiro.csproj|solutionrelative:gestorfinanceiro\\models\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositorioTransacoes.cs",
+              "DocumentMoniker": "C:\\Users\\JuanU\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Repositorios\\RepositorioTransacoes.cs",
+              "RelativeDocumentMoniker": "GestorFinanceiro\\Repositorios\\RepositorioTransacoes.cs",
+              "ToolTip": "C:\\Users\\JuanU\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Repositorios\\RepositorioTransacoes.cs",
+              "RelativeToolTip": "GestorFinanceiro\\Repositorios\\RepositorioTransacoes.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T02:02:08.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JuanU\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Program.cs",
+              "RelativeDocumentMoniker": "GestorFinanceiro\\Program.cs",
+              "ToolTip": "C:\\Users\\JuanU\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Program.cs",
+              "RelativeToolTip": "GestorFinanceiro\\Program.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T23:45:17.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Transacao.cs",
+              "DocumentMoniker": "C:\\Users\\JuanU\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Models\\Transacao.cs",
+              "RelativeDocumentMoniker": "GestorFinanceiro\\Models\\Transacao.cs",
+              "ToolTip": "C:\\Users\\JuanU\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Models\\Transacao.cs",
+              "RelativeToolTip": "GestorFinanceiro\\Models\\Transacao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T02:05:25.916Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

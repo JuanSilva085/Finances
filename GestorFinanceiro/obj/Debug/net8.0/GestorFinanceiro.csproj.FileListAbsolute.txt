@@ -1,0 +1,15 @@
+C:\Users\JuanU\source\repos\GestorFinanceiro\GestorFinanceiro\bin\Debug\net8.0\GestorFinanceiro.exe
+C:\Users\JuanU\source\repos\GestorFinanceiro\GestorFinanceiro\bin\Debug\net8.0\GestorFinanceiro.deps.json
+C:\Users\JuanU\source\repos\GestorFinanceiro\GestorFinanceiro\bin\Debug\net8.0\GestorFinanceiro.runtimeconfig.json
+C:\Users\JuanU\source\repos\GestorFinanceiro\GestorFinanceiro\bin\Debug\net8.0\GestorFinanceiro.dll
+C:\Users\JuanU\source\repos\GestorFinanceiro\GestorFinanceiro\bin\Debug\net8.0\GestorFinanceiro.pdb
+C:\Users\JuanU\source\repos\GestorFinanceiro\GestorFinanceiro\obj\Debug\net8.0\GestorFinanceiro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JuanU\source\repos\GestorFinanceiro\GestorFinanceiro\obj\Debug\net8.0\GestorFinanceiro.AssemblyInfoInputs.cache
+C:\Users\JuanU\source\repos\GestorFinanceiro\GestorFinanceiro\obj\Debug\net8.0\GestorFinanceiro.AssemblyInfo.cs
+C:\Users\JuanU\source\repos\GestorFinanceiro\GestorFinanceiro\obj\Debug\net8.0\GestorFinanceiro.csproj.CoreCompileInputs.cache
+C:\Users\JuanU\source\repos\GestorFinanceiro\GestorFinanceiro\obj\Debug\net8.0\GestorFinanceiro.sourcelink.json
+C:\Users\JuanU\source\repos\GestorFinanceiro\GestorFinanceiro\obj\Debug\net8.0\GestorFinanceiro.dll
+C:\Users\JuanU\source\repos\GestorFinanceiro\GestorFinanceiro\obj\Debug\net8.0\refint\GestorFinanceiro.dll
+C:\Users\JuanU\source\repos\GestorFinanceiro\GestorFinanceiro\obj\Debug\net8.0\GestorFinanceiro.pdb
+C:\Users\JuanU\source\repos\GestorFinanceiro\GestorFinanceiro\obj\Debug\net8.0\GestorFinanceiro.genruntimeconfig.cache
+C:\Users\JuanU\source\repos\GestorFinanceiro\GestorFinanceiro\obj\Debug\net8.0\ref\GestorFinanceiro.dll
