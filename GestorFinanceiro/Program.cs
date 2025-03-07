@@ -31,7 +31,7 @@ class Program
                 
                 case "3":
                     decimal entradas, saidas;
-                    decimal saldo = repositorio.CalcularSaldo(out entradas, out saidas); //Obter entradas e saidas separadas
+                    decimal saldo = repositorio.CalcularSaldo(out entradas, out saidas); //Para obter entradas e saidas separadas
                     Console.WriteLine($"Total de entradas: $ {entradas:F2}");
                     Console.WriteLine($"Total de saídas: $ {saldo:F2}");
                     Console.WriteLine($"Saldo disponível: $ {saldo:F2}");
@@ -66,7 +66,7 @@ class Program
         string categoria = Console.ReadLine();
 
 
-        string tipo; //para não causar erro no repo.AddTransition
+        string tipo; //Para não causar erro no repo.AddTransition
         while (true)
         {
             Console.Write("Tipo: (Entradas e saídas)"); 
@@ -74,7 +74,7 @@ class Program
 
             if(tipo == "entrada" || tipo == "saida") 
             {
-                tipo = char.ToUpper(tipo[0]) + tipo.Substring(1); //serve para capitalizar a primeira letra (entrada -> Entrada)
+                tipo = char.ToUpper(tipo[0]) + tipo.Substring(1); //Serve para capitalizar a primeira letra (entrada -> Entrada)
                 break;
             }
             Console.WriteLine("Tipo inválido! Escolha 'entrada' ou 'saida'");
