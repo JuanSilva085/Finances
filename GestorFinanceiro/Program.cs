@@ -30,7 +30,11 @@ class Program
                     break;
                 
                 case "3":
-                    Console.WriteLine($"Seu saldo atual é: {repositorio.CalcularSaldo()}");
+                    decimal entradas, saidas;
+                    decimal saldo = repositorio.CalcularSaldo(out entradas, out saidas); //Obter entradas e saidas separadas
+                    Console.WriteLine($"Total de entradas: $ {entradas:F2}");
+                    Console.WriteLine($"Total de saídas: $ {saldo:F2}");
+                    Console.WriteLine($"Saldo disponível: $ {saldo:F2}");
                     Console.ReadKey();
                     break;
 
@@ -51,14 +55,30 @@ class Program
         string descricao = Console.ReadLine();
 
         Console.Write("Valor: ");
-        decimal valor = decimal.Parse(Console.ReadLine());
+        if(!decimal.TryParse(Console.ReadLine(), out decimal valor) || valor <= 0)
+        {
+            Console.WriteLine("Valor inválido!");
+            Console.ReadKey();
+            return;
+        }
 
         Console.Write("Categoria: (ex: Casa, mercado) ");
         string categoria = Console.ReadLine();
 
-        Console.Write("Tipo: (Entradas e saídas)");
-        string tipo = Console.ReadLine();
 
+        string tipo; //para não causar erro no repo.AddTransition
+        while (true)
+        {
+            Console.Write("Tipo: (Entradas e saídas)"); 
+             tipo = Console.ReadLine()?.Trim().ToLower(); //Remove espaços e converte o que é digitado para minusculas
+
+            if(tipo == "entrada" || tipo == "saida") 
+            {
+                tipo = char.ToUpper(tipo[0]) + tipo.Substring(1); //serve para capitalizar a primeira letra (entrada -> Entrada)
+                break;
+            }
+            Console.WriteLine("Tipo inválido! Escolha 'entrada' ou 'saida'");
+        }
         repo.AddTransition(new Transacao
         {
             Descricao = descricao,
@@ -81,9 +101,13 @@ class Program
         }
         else
         {
-            foreach(var transacao in transacoes)
-            {
-                Console.WriteLine(transacao);
+            Console.Write("\n=== SUAS TRANSAÇÕES ===");
+            Console.WriteLine("ID | Descrição | Tipo | Valor | Categoria | Data");
+            Console.Write("--------------------------------------");
+
+            foreach (var t in transacoes)
+            { 
+                Console.WriteLine($"{t.Id} | {t.Descricao} | {t.Tipo} | ${t.Valor} | {t.Categoria} | {t.Data:d}");
             }
         }
         Console.ReadKey();
