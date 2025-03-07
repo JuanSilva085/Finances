@@ -29,11 +29,11 @@ namespace GestorFinanceiro.Repositorios
 			{
 				if (t.Tipo == "Entrada")
 				{
-					entradas += t.Valor; //SOMAR OS VALORES DAS ENTRADAS
+					entradas += t.Valor; //SOMA OS VALORES DAS ENTRADAS
 				}
 				else
 				{
-					saidas += t.Valor; //SOMAR OS VALORES DAS SAÍDAS
+					saidas += t.Valor; //SOMA OS VALORES DAS SAÍDAS
 				}
 			}
 			return entradas - saidas;

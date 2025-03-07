@@ -31,7 +31,7 @@ class Program
                 
                 case "3":
                     decimal entradas, saidas;
-                    decimal saldo = repositorio.CalcularSaldo(out entradas, out saidas); //Para obter entradas e saidas separadas
+                    decimal saldo = repositorio.CalcularSaldo(out entradas, out saidas); //Para obter entradas e saídas separadas
                     Console.WriteLine($"Total de entradas: $ {entradas:F2}");
                     Console.WriteLine($"Total de saídas: $ {saldo:F2}");
                     Console.WriteLine($"Saldo disponível: $ {saldo:F2}");

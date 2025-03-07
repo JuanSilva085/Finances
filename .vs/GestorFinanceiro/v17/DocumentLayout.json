@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\JuanU\\source\\repos\\GestorFinanceiro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ECEA0850-D352-4B53-872C-4583AFA0ABB2}|GestorFinanceiro\\GestorFinanceiro.csproj|c:\\users\\juanu\\source\\repos\\gestorfinanceiro\\gestorfinanceiro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECEA0850-D352-4B53-872C-4583AFA0ABB2}|GestorFinanceiro\\GestorFinanceiro.csproj|solutionrelative:gestorfinanceiro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ECEA0850-D352-4B53-872C-4583AFA0ABB2}|GestorFinanceiro\\GestorFinanceiro.csproj|c:\\users\\juanu\\source\\repos\\gestorfinanceiro\\gestorfinanceiro\\repositorios\\repositoriotransacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECEA0850-D352-4B53-872C-4583AFA0ABB2}|GestorFinanceiro\\GestorFinanceiro.csproj|solutionrelative:gestorfinanceiro\\repositorios\\repositoriotransacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECEA0850-D352-4B53-872C-4583AFA0ABB2}|GestorFinanceiro\\GestorFinanceiro.csproj|c:\\users\\juanu\\source\\repos\\gestorfinanceiro\\gestorfinanceiro\\models\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECEA0850-D352-4B53-872C-4583AFA0ABB2}|GestorFinanceiro\\GestorFinanceiro.csproj|solutionrelative:gestorfinanceiro\\models\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECEA0850-D352-4B53-872C-4583AFA0ABB2}|GestorFinanceiro\\GestorFinanceiro.csproj|c:\\users\\juanu\\source\\repos\\gestorfinanceiro\\gestorfinanceiro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECEA0850-D352-4B53-872C-4583AFA0ABB2}|GestorFinanceiro\\GestorFinanceiro.csproj|solutionrelative:gestorfinanceiro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,33 +58,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RepositorioTransacoes.cs",
-              "DocumentMoniker": "C:\\Users\\JuanU\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Repositorios\\RepositorioTransacoes.cs",
-              "RelativeDocumentMoniker": "GestorFinanceiro\\Repositorios\\RepositorioTransacoes.cs",
-              "ToolTip": "C:\\Users\\JuanU\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Repositorios\\RepositorioTransacoes.cs",
-              "RelativeToolTip": "GestorFinanceiro\\Repositorios\\RepositorioTransacoes.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T02:02:08.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\JuanU\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Program.cs",
               "RelativeDocumentMoniker": "GestorFinanceiro\\Program.cs",
               "ToolTip": "C:\\Users\\JuanU\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Program.cs",
               "RelativeToolTip": "GestorFinanceiro\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAAB0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T23:45:17.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "RepositorioTransacoes.cs",
+              "DocumentMoniker": "C:\\Users\\JuanU\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Repositorios\\RepositorioTransacoes.cs",
+              "RelativeDocumentMoniker": "GestorFinanceiro\\Repositorios\\RepositorioTransacoes.cs",
+              "ToolTip": "C:\\Users\\JuanU\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Repositorios\\RepositorioTransacoes.cs",
+              "RelativeToolTip": "GestorFinanceiro\\Repositorios\\RepositorioTransacoes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T02:02:08.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Transacao.cs",
               "DocumentMoniker": "C:\\Users\\JuanU\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Models\\Transacao.cs",
               "RelativeDocumentMoniker": "GestorFinanceiro\\Models\\Transacao.cs",
@@ -92,7 +92,8 @@
               "RelativeToolTip": "GestorFinanceiro\\Models\\Transacao.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T02:05:25.916Z"
+              "WhenOpened": "2025-03-06T02:05:25.916Z",
+              "EditorCaption": ""
             }
           ]
         }
