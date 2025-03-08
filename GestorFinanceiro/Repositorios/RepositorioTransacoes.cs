@@ -20,12 +20,12 @@ namespace GestorFinanceiro.Repositorios
 			return _transacoes;
 		}
 
-        public decimal CalcularSaldo(out decimal entradas, out decimal saidas)
+        public void CalcularSaldo(out decimal entradas, out decimal saidas)
 		{
 			entradas = 0;
 			saidas = 0;
 
-			foreach(var t in _transacoes) 
+			foreach (var t in _transacoes)
 			{
 				if (t.Tipo == "Entrada")
 				{
@@ -36,7 +36,6 @@ namespace GestorFinanceiro.Repositorios
 					saidas += t.Valor; //SOMA OS VALORES DAS SAÍDAS
 				}
 			}
-			return entradas - saidas;
 		}
 	}
 }

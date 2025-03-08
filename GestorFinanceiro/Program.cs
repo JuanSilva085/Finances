@@ -10,7 +10,7 @@ class Program
 
         while (true) 
         {
-            Console.WriteLine("===== Gestor Financeiro =====");
+            Console.WriteLine("\n===== Gestor Financeiro =====");
             Console.WriteLine("1 - Adicionar Transação");
             Console.WriteLine("2 - Listar Transações");
             Console.WriteLine("3 - Consultar saldo disponível");
@@ -31,10 +31,10 @@ class Program
                 
                 case "3":
                     decimal entradas, saidas;
-                    decimal saldo = repositorio.CalcularSaldo(out entradas, out saidas); //Para obter entradas e saídas separadas
+                    repositorio.CalcularSaldo(out entradas, out saidas); //Para obter entradas e saídas separadas
                     Console.WriteLine($"Total de entradas: $ {entradas:F2}");
-                    Console.WriteLine($"Total de saídas: $ {saldo:F2}");
-                    Console.WriteLine($"Saldo disponível: $ {saldo:F2}");
+                    Console.WriteLine($"Total de saídas: $ {saidas:F2}");
+                    Console.WriteLine($"Saldo disponível: $ {entradas - saidas:F2}");
                     Console.ReadKey();
                     break;
 
@@ -62,7 +62,7 @@ class Program
             return;
         }
 
-        Console.Write("Categoria: (ex: Casa, mercado) ");
+        Console.Write("Categoria: (ex: Casa, Mercado) ");
         string categoria = Console.ReadLine();
 
 
@@ -102,12 +102,12 @@ class Program
         else
         {
             Console.Write("\n=== SUAS TRANSAÇÕES ===");
-            Console.WriteLine("ID | Descrição | Tipo | Valor | Categoria | Data");
-            Console.Write("--------------------------------------");
+            Console.WriteLine("\nID | Descrição | Tipo | Valor | Categoria | Data");
+            Console.Write("\n-");
 
             foreach (var t in transacoes)
             { 
-                Console.WriteLine($"{t.Id} | {t.Descricao} | {t.Tipo} | ${t.Valor} | {t.Categoria} | {t.Data:d}");
+                Console.WriteLine($"- {t.Id} | {t.Descricao} | {t.Tipo} | ${t.Valor} | {t.Categoria} | {t.Data:d}");
             }
         }
         Console.ReadKey();
