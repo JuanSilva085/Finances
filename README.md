@@ -34,6 +34,7 @@ Insira as transações conforme solicitado no terminal.
 
 🔧 Tecnologias Utilizadas
 
-C#
+<img align="left" width="50px" style="padding-right: 50px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
+  
 
-.NET Core
+<img align="left" width="50px" style="padding-right: 50px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" />
