@@ -1,4 +1,4 @@
-# 💰 Financial-Management
+# 💰 Finances-Management
 
 🚀 Este é um projeto simples de gerenciamento de finanças pessoais, onde você pode registrar entradas e saídas.
 
